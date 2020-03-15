@@ -16,6 +16,7 @@ export default function Identity() {
                 onChange={e => setPrenom(e.target.value)}
             />
         </label>
+        <br/>
         <label>
             Nom:
             <input

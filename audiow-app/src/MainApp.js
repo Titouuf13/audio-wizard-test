@@ -23,6 +23,7 @@ export default function MainApp() {
                     <IdentityContext.Provider value={{ prenom, nom, setPrenom, setNom, step, setStep }}>
                         <Identity/>
                     </IdentityContext.Provider>
+                    <br/>
                     <input type="submit" value="Valider" onClick={() => setStep(step + 1)}/>
                 </div>
             </div>
@@ -37,6 +38,7 @@ export default function MainApp() {
                         <ToggleButtonGroupControlled/>
                     </SexContext.Provider>
                 </div>
+                <br/>
                 <input type="submit" value="Valider" onClick={() => setStep(step + 1)}/>
             </div>
         );
