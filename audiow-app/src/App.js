@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import TopNav from "./TopNav";
-import SideBarLeft from "./SideBar";
-import MainApp from './MainApp';
+import TopNav from "./NavBars/TopNav";
+import SideBarLeft from "./NavBars/SideBar";
+import MainApp from './MainApp/MainApp';
 
 function App() {
   
